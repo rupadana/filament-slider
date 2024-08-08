@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.range-slider.noUi-target {
+    @apply rounded-lg shadow-sm ring-1 transition duration-75 bg-white focus-within:ring-2 dark:bg-white/5 ring-gray-950/10 focus-within:ring-primary-600 dark:ring-white/20 dark:focus-within:ring-primary-500;
+}
+
+
+.noUi-connect {
+    --c-400: var(--primary-400);
+    --c-500: var(--primary-500);
+    --c-600: var(--primary-600);
+
+
+
+    @apply hover:bg-custom-500 dark:bg-custom-500 dark:hover:bg-custom-400 focus:ring-custom-500/50 dark:focus:ring-custom-400/50 bg-custom-600;
+}
